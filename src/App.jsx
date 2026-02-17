@@ -35,6 +35,11 @@ function App() {
         </div>
 
         <div className="section">
+          <h2>fertilizer Aplication </h2>
+          <p>Mix in compost or a general, slow-release fertilizer into the soil before planting to provide essential nutrients, as parsley benefits from nutrient-rich soil.</p>
+        </div>
+
+        <div className="section">
           <h2>Diseases</h2>
           <p>Leaf spot, Stem rot</p>
         </div>
