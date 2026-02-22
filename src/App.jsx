@@ -51,6 +51,20 @@ function App() {
             portions of the plant. Harvest continuously throughout the growing period.
           </p>
         </div>
+        <div className="section presentation">
+          <h2>Presentation</h2>
+          <p>
+            View my presentation here:{" "}
+            <a 
+              href="https://docs.google.com/presentation/d/1OCXrAvkbYBeTn3u2oEvd2V4Od41_WoPF/edit?usp=drive_link&ouid=114584261488117709248&rtpof=true&sd=true"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open Google Slides Presentation
+            </a>
+          </p>
+        </div>
+        
       </div>
 
       {/* Right Image */}
