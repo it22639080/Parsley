@@ -1,0 +1,144 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap');
+
+body {
+  margin: 10px;
+  font-family: 'Outfit', sans-serif;
+  background-color: #f0fdf4; /* soft green */
+  height: 120vh;
+  /* overflow: hidden; */
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: calc(100vh - 40px);
+  margin-top: 20px;
+}
+
+.content {
+  flex: 1 1 500px;
+  padding: 30px;
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+/* Custom scrollbar for content */
+.content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.content::-webkit-scrollbar-track {
+  background: #f0fdf4;
+  border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background: #16a34a;
+  border-radius: 10px;
+}
+
+.content::-webkit-scrollbar-thumb:hover {
+  background: #047857;
+}
+
+.title {
+  color: #16a34a;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Card container for basic info */
+.basic-info {
+  background-color: #f0fdf4;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.basic-info p {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+/* Card styles for sections */
+.section {
+  background-color: #ffffff;
+  border: 2px solid #dcfce7;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  color: #047857;
+  margin: 0 0 8px 0;
+  font-size: 20px;
+}
+
+.section p {
+  margin: 0;
+  color: #374151;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.image-container {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f9fafb;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: calc(100vh - 80px);
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  object-fit: contain;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  body {
+    overflow: auto;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 20px;
+    height: auto;
+  }
+
+  .content {
+    overflow-y: visible;
+  }
+
+  .image-container {
+    margin-top: 20px;
+  }
+
+  .image-container img {
+    max-height: 400px;
+  }
+}
