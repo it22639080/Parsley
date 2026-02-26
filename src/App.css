@@ -6,13 +6,13 @@
   padding: 15px 30px;
   border-radius: 10px;
   margin: 10px auto;
-  max-width: 650px;
+  max-width: 750px;
 }
 
 .header ul {
   list-style: none;
   display: flex;
-  gap: 150px;
+  gap: 130px;
   align-items: center;
   justify-content: center;
 }
