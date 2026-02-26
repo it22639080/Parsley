@@ -15,6 +15,15 @@ function App() {
               <li><Link to="/">Parsley</Link></li>
               <li><Link to="/celery">Celery</Link></li>
               <li><Link to="/mint">Mint</Link></li>
+              <li>
+        <a
+          href="https://docs.google.com/presentation/d/1OCXrAvkbYBeTn3u2oEvd2V4Od41_WoPF/edit?usp=drive_link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Presentation
+        </a>
+      </li>
             </ul>
           </nav>
         </header>
